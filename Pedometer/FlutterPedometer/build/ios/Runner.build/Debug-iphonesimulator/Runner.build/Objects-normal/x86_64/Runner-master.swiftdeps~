@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "62185665a769052e905eaa59860425eb"
+build_time: [1528725826, 194819000]
+inputs:
+  "/Users/thomasnilsson/development/flutter/examples/platform_channel_swift/ios/Runner/AppDelegate.swift": [1528725781, 0]
