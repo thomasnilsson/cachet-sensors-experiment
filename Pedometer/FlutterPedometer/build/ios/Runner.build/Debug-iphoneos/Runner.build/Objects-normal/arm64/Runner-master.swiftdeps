@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "6e8df9034bf56c950ac1a7041c6b34b6"
+build_time: [1528832251, 341244000]
+inputs:
+  "/Users/thomasnilsson/Desktop/FlutterPedometer/ios/Runner/AppDelegate.swift": [1528831949, 0]
