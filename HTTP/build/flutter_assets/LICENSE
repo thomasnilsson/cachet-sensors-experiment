@@ -2780,7 +2780,6 @@ SOFTWARE.
 charcode
 http
 http_parser
-oauth2
 path
 source_span
 string_scanner

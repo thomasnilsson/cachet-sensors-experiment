@@ -16,7 +16,7 @@ packages:
     source: hosted
     version: "1.1.1"
   collection:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: collection
       url: "https://pub.dartlang.org"
@@ -35,7 +35,7 @@ packages:
     source: hosted
     version: "0.11.3+16"
   http_parser:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: http_parser
       url: "https://pub.dartlang.org"
@@ -48,13 +48,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.5"
-  oauth2:
-    dependency: "direct main"
-    description:
-      name: oauth2
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.1"
   path:
     dependency: transitive
     description:
