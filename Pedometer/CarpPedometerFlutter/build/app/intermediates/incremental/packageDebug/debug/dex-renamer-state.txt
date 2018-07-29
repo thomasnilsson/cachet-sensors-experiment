@@ -1,0 +1,4 @@
+#Sun Jul 29 22:35:24 CEST 2018
+base.0=/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/CarpPedometerFlutter/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

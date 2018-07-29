@@ -1,0 +1,782 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "6Runner11AppDelegateC"
+provides-member:
+- ["6Runner11AppDelegateC", ""]
+provides-dynamic-lookup:
+- "application"
+- "onBatteryLevelDidChange"
+- "onBatteryStateDidChange"
+- "onCancel"
+- "onListen"
+depends-top-level:
+- !private "*"
+- !private "=="
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "FlutterAppDelegate"
+- "FlutterError"
+- !private "FlutterEventChannel"
+- "FlutterEventSink"
+- !private "FlutterMethodCall"
+- !private "FlutterMethodChannel"
+- !private "FlutterMethodNotImplemented"
+- "FlutterResult"
+- "FlutterStreamHandler"
+- !private "FlutterViewController"
+- !private "GeneratedPluginRegistrant"
+- !private "Int"
+- "NSNotification"
+- !private "NotificationCenter"
+- !private "StringLiteralType"
+- "UIApplication"
+- "UIApplicationLaunchOptionsKey"
+- !private "UIDevice"
+- !private "UIDeviceBatteryState"
+- !private "Void"
+depends-member:
+- ["6Runner11AppDelegateC", "Bool"]
+- ["6Runner11AppDelegateC", "FlutterError"]
+- !private ["6Runner11AppDelegateC", "FlutterEventChannel"]
+- ["6Runner11AppDelegateC", "FlutterEventSink"]
+- !private ["6Runner11AppDelegateC", "FlutterMethodCall"]
+- !private ["6Runner11AppDelegateC", "FlutterMethodChannel"]
+- !private ["6Runner11AppDelegateC", "FlutterMethodNotImplemented"]
+- ["6Runner11AppDelegateC", "FlutterResult"]
+- !private ["6Runner11AppDelegateC", "FlutterViewController"]
+- !private ["6Runner11AppDelegateC", "GeneratedPluginRegistrant"]
+- !private ["6Runner11AppDelegateC", "Int"]
+- ["6Runner11AppDelegateC", "NSNotification"]
+- !private ["6Runner11AppDelegateC", "NotificationCenter"]
+- ["6Runner11AppDelegateC", "UIApplication"]
+- ["6Runner11AppDelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["6Runner11AppDelegateC", "UIDevice"]
+- !private ["6Runner11AppDelegateC", "UIDeviceBatteryState"]
+- !private ["6Runner11AppDelegateC", "Void"]
+- ["6Runner11AppDelegateC", "application"]
+- ["6Runner11AppDelegateC", "deinit"]
+- !private ["6Runner11AppDelegateC", "eventSink"]
+- ["6Runner11AppDelegateC", "init"]
+- !private ["6Runner11AppDelegateC", "onBatteryLevelDidChange"]
+- !private ["6Runner11AppDelegateC", "onBatteryStateDidChange"]
+- ["6Runner11AppDelegateC", "onCancel"]
+- ["6Runner11AppDelegateC", "onCancelWithArguments"]
+- ["6Runner11AppDelegateC", "onListen"]
+- ["6Runner11AppDelegateC", "onListenWithArguments"]
+- !private ["6Runner11AppDelegateC", "receiveBatteryLevel"]
+- !private ["6Runner11AppDelegateC", "sendBatteryLevelEvent"]
+- !private ["6Runner11AppDelegateC", "sendBatteryStateEvent"]
+- !private ["6Runner11AppDelegateC", "window"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "FlutterError"]
+- !private ["s7CVarArgP", "FlutterEventChannel"]
+- !private ["s7CVarArgP", "FlutterMethodChannel"]
+- !private ["s7CVarArgP", "FlutterMethodNotImplemented"]
+- !private ["s7CVarArgP", "GeneratedPluginRegistrant"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSNotification"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "UIDevice"]
+- !private ["s7CVarArgP", "UIDeviceBatteryState"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "application"]
+- !private ["s7CVarArgP", "batteryLevel"]
+- !private ["s7CVarArgP", "batteryState"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "eventSink"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isBatteryMonitoringEnabled"]
+- !private ["s7CVarArgP", "method"]
+- !private ["s7CVarArgP", "onBatteryLevelDidChange"]
+- !private ["s7CVarArgP", "onBatteryStateDidChange"]
+- ["s7CVarArgP", "onCancel"]
+- ["s7CVarArgP", "onCancelWithArguments"]
+- ["s7CVarArgP", "onListen"]
+- ["s7CVarArgP", "onListenWithArguments"]
+- !private ["s7CVarArgP", "receiveBatteryLevel"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "sendBatteryStateEvent"]
+- !private ["s7CVarArgP", "setMethodCallHandler"]
+- !private ["s7CVarArgP", "setStreamHandler"]
+- !private ["s7CVarArgP", "window"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterError"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterEventChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s28CustomDebugStringConvertibleP", "GeneratedPluginRegistrant"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDeviceBatteryState"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "application"]
+- !private ["s28CustomDebugStringConvertibleP", "batteryLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "batteryState"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "eventSink"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isBatteryMonitoringEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "method"]
+- !private ["s28CustomDebugStringConvertibleP", "onBatteryLevelDidChange"]
+- !private ["s28CustomDebugStringConvertibleP", "onBatteryStateDidChange"]
+- ["s28CustomDebugStringConvertibleP", "onCancel"]
+- ["s28CustomDebugStringConvertibleP", "onCancelWithArguments"]
+- ["s28CustomDebugStringConvertibleP", "onListen"]
+- ["s28CustomDebugStringConvertibleP", "onListenWithArguments"]
+- !private ["s28CustomDebugStringConvertibleP", "receiveBatteryLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "sendBatteryStateEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "setMethodCallHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "setStreamHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "FlutterError"]
+- !private ["s23CustomStringConvertibleP", "FlutterEventChannel"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s23CustomStringConvertibleP", "GeneratedPluginRegistrant"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSNotification"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "UIDevice"]
+- !private ["s23CustomStringConvertibleP", "UIDeviceBatteryState"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "application"]
+- !private ["s23CustomStringConvertibleP", "batteryLevel"]
+- !private ["s23CustomStringConvertibleP", "batteryState"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "eventSink"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isBatteryMonitoringEnabled"]
+- !private ["s23CustomStringConvertibleP", "method"]
+- !private ["s23CustomStringConvertibleP", "onBatteryLevelDidChange"]
+- !private ["s23CustomStringConvertibleP", "onBatteryStateDidChange"]
+- ["s23CustomStringConvertibleP", "onCancel"]
+- ["s23CustomStringConvertibleP", "onCancelWithArguments"]
+- ["s23CustomStringConvertibleP", "onListen"]
+- ["s23CustomStringConvertibleP", "onListenWithArguments"]
+- !private ["s23CustomStringConvertibleP", "receiveBatteryLevel"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "sendBatteryStateEvent"]
+- !private ["s23CustomStringConvertibleP", "setMethodCallHandler"]
+- !private ["s23CustomStringConvertibleP", "setStreamHandler"]
+- !private ["s23CustomStringConvertibleP", "window"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "FlutterError"]
+- !private ["s9EquatableP", "FlutterEventChannel"]
+- !private ["s9EquatableP", "FlutterMethodChannel"]
+- !private ["s9EquatableP", "FlutterMethodNotImplemented"]
+- !private ["s9EquatableP", "GeneratedPluginRegistrant"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "NSNotification"]
+- !private ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- !private ["s9EquatableP", "UIDevice"]
+- !private ["s9EquatableP", "UIDeviceBatteryLevelDidChange"]
+- !private ["s9EquatableP", "UIDeviceBatteryState"]
+- !private ["s9EquatableP", "UIDeviceBatteryStateDidChange"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "application"]
+- !private ["s9EquatableP", "batteryLevel"]
+- !private ["s9EquatableP", "batteryState"]
+- ["s9EquatableP", "charging"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "eventSink"]
+- ["s9EquatableP", "full"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isBatteryMonitoringEnabled"]
+- !private ["s9EquatableP", "method"]
+- !private ["s9EquatableP", "onBatteryLevelDidChange"]
+- !private ["s9EquatableP", "onBatteryStateDidChange"]
+- ["s9EquatableP", "onCancel"]
+- ["s9EquatableP", "onCancelWithArguments"]
+- ["s9EquatableP", "onListen"]
+- ["s9EquatableP", "onListenWithArguments"]
+- !private ["s9EquatableP", "receiveBatteryLevel"]
+- !private ["s9EquatableP", "register"]
+- !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "sendBatteryStateEvent"]
+- !private ["s9EquatableP", "setMethodCallHandler"]
+- !private ["s9EquatableP", "setStreamHandler"]
+- !private ["s9EquatableP", "unknown"]
+- ["s9EquatableP", "unplugged"]
+- !private ["s9EquatableP", "window"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["So18FlutterAppDelegateC", "Bool"]
+- ["So18FlutterAppDelegateC", "FlutterError"]
+- !private ["So18FlutterAppDelegateC", "FlutterEventChannel"]
+- ["So18FlutterAppDelegateC", "FlutterEventSink"]
+- !private ["So18FlutterAppDelegateC", "FlutterMethodCall"]
+- !private ["So18FlutterAppDelegateC", "FlutterMethodChannel"]
+- !private ["So18FlutterAppDelegateC", "FlutterMethodNotImplemented"]
+- ["So18FlutterAppDelegateC", "FlutterResult"]
+- !private ["So18FlutterAppDelegateC", "FlutterViewController"]
+- !private ["So18FlutterAppDelegateC", "GeneratedPluginRegistrant"]
+- !private ["So18FlutterAppDelegateC", "Int"]
+- ["So18FlutterAppDelegateC", "NSNotification"]
+- !private ["So18FlutterAppDelegateC", "NotificationCenter"]
+- ["So18FlutterAppDelegateC", "UIApplication"]
+- ["So18FlutterAppDelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["So18FlutterAppDelegateC", "UIDevice"]
+- !private ["So18FlutterAppDelegateC", "UIDeviceBatteryState"]
+- !private ["So18FlutterAppDelegateC", "Void"]
+- ["So18FlutterAppDelegateC", ""]
+- ["So18FlutterAppDelegateC", "application"]
+- ["So18FlutterAppDelegateC", "eventSink"]
+- ["So18FlutterAppDelegateC", "init"]
+- ["So18FlutterAppDelegateC", "onBatteryLevelDidChange"]
+- ["So18FlutterAppDelegateC", "onBatteryStateDidChange"]
+- ["So18FlutterAppDelegateC", "onCancel"]
+- ["So18FlutterAppDelegateC", "onCancelWithArguments"]
+- ["So18FlutterAppDelegateC", "onListen"]
+- ["So18FlutterAppDelegateC", "onListenWithArguments"]
+- ["So18FlutterAppDelegateC", "receiveBatteryLevel"]
+- ["So18FlutterAppDelegateC", "sendBatteryLevelEvent"]
+- ["So18FlutterAppDelegateC", "sendBatteryStateEvent"]
+- !private ["So18FlutterAppDelegateC", "window"]
+- !private ["So12FlutterErrorC", "init"]
+- !private ["So19FlutterEventChannelC", "init"]
+- !private ["So19FlutterEventChannelC", "setStreamHandler"]
+- !private ["So17FlutterMethodCallC", "method"]
+- !private ["So20FlutterMethodChannelC", "init"]
+- !private ["So20FlutterMethodChannelC", "setMethodCallHandler"]
+- !private ["So21FlutterPluginRegistryP", "FlutterError"]
+- !private ["So21FlutterPluginRegistryP", "FlutterEventChannel"]
+- !private ["So21FlutterPluginRegistryP", "FlutterMethodChannel"]
+- !private ["So21FlutterPluginRegistryP", "FlutterMethodNotImplemented"]
+- !private ["So21FlutterPluginRegistryP", "GeneratedPluginRegistrant"]
+- !private ["So21FlutterPluginRegistryP", "Int"]
+- !private ["So21FlutterPluginRegistryP", "NSNotification"]
+- !private ["So21FlutterPluginRegistryP", "NotificationCenter"]
+- !private ["So21FlutterPluginRegistryP", "UIDevice"]
+- !private ["So21FlutterPluginRegistryP", "UIDeviceBatteryState"]
+- ["So21FlutterPluginRegistryP", ""]
+- !private ["So21FlutterPluginRegistryP", "application"]
+- !private ["So21FlutterPluginRegistryP", "eventSink"]
+- !private ["So21FlutterPluginRegistryP", "init"]
+- !private ["So21FlutterPluginRegistryP", "onBatteryLevelDidChange"]
+- !private ["So21FlutterPluginRegistryP", "onBatteryStateDidChange"]
+- ["So21FlutterPluginRegistryP", "onCancel"]
+- ["So21FlutterPluginRegistryP", "onCancelWithArguments"]
+- ["So21FlutterPluginRegistryP", "onListen"]
+- ["So21FlutterPluginRegistryP", "onListenWithArguments"]
+- !private ["So21FlutterPluginRegistryP", "receiveBatteryLevel"]
+- !private ["So21FlutterPluginRegistryP", "sendBatteryStateEvent"]
+- !private ["So21FlutterPluginRegistryP", "window"]
+- !private ["So20FlutterStreamHandlerP", "FlutterError"]
+- !private ["So20FlutterStreamHandlerP", "FlutterEventChannel"]
+- !private ["So20FlutterStreamHandlerP", "FlutterMethodChannel"]
+- !private ["So20FlutterStreamHandlerP", "FlutterMethodNotImplemented"]
+- !private ["So20FlutterStreamHandlerP", "GeneratedPluginRegistrant"]
+- !private ["So20FlutterStreamHandlerP", "Int"]
+- !private ["So20FlutterStreamHandlerP", "NSNotification"]
+- !private ["So20FlutterStreamHandlerP", "NotificationCenter"]
+- !private ["So20FlutterStreamHandlerP", "UIDevice"]
+- !private ["So20FlutterStreamHandlerP", "UIDeviceBatteryState"]
+- ["So20FlutterStreamHandlerP", ""]
+- !private ["So20FlutterStreamHandlerP", "eventSink"]
+- !private ["So20FlutterStreamHandlerP", "onBatteryLevelDidChange"]
+- !private ["So20FlutterStreamHandlerP", "onBatteryStateDidChange"]
+- ["So20FlutterStreamHandlerP", "onCancel"]
+- ["So20FlutterStreamHandlerP", "onCancelWithArguments"]
+- ["So20FlutterStreamHandlerP", "onListen"]
+- ["So20FlutterStreamHandlerP", "onListenWithArguments"]
+- !private ["So20FlutterStreamHandlerP", "receiveBatteryLevel"]
+- !private ["So20FlutterStreamHandlerP", "sendBatteryStateEvent"]
+- !private ["So20FlutterStreamHandlerP", "window"]
+- !private ["So25GeneratedPluginRegistrantC", "register"]
+- !private ["s8HashableP", "FlutterError"]
+- !private ["s8HashableP", "FlutterEventChannel"]
+- !private ["s8HashableP", "FlutterMethodChannel"]
+- !private ["s8HashableP", "FlutterMethodNotImplemented"]
+- !private ["s8HashableP", "GeneratedPluginRegistrant"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "NSNotification"]
+- !private ["s8HashableP", "Name"]
+- !private ["s8HashableP", "NotificationCenter"]
+- !private ["s8HashableP", "UIDevice"]
+- !private ["s8HashableP", "UIDeviceBatteryLevelDidChange"]
+- !private ["s8HashableP", "UIDeviceBatteryState"]
+- !private ["s8HashableP", "UIDeviceBatteryStateDidChange"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "application"]
+- !private ["s8HashableP", "batteryLevel"]
+- !private ["s8HashableP", "batteryState"]
+- ["s8HashableP", "charging"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "eventSink"]
+- ["s8HashableP", "full"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isBatteryMonitoringEnabled"]
+- !private ["s8HashableP", "method"]
+- !private ["s8HashableP", "onBatteryLevelDidChange"]
+- !private ["s8HashableP", "onBatteryStateDidChange"]
+- ["s8HashableP", "onCancel"]
+- ["s8HashableP", "onCancelWithArguments"]
+- ["s8HashableP", "onListen"]
+- ["s8HashableP", "onListenWithArguments"]
+- !private ["s8HashableP", "receiveBatteryLevel"]
+- !private ["s8HashableP", "register"]
+- !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "sendBatteryStateEvent"]
+- !private ["s8HashableP", "setMethodCallHandler"]
+- !private ["s8HashableP", "setStreamHandler"]
+- !private ["s8HashableP", "unknown"]
+- ["s8HashableP", "unplugged"]
+- !private ["s8HashableP", "window"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So14NSNotificationC", "Name"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "FlutterError"]
+- !private ["So8NSObjectC", "FlutterEventChannel"]
+- ["So8NSObjectC", "FlutterEventSink"]
+- !private ["So8NSObjectC", "FlutterMethodCall"]
+- !private ["So8NSObjectC", "FlutterMethodChannel"]
+- !private ["So8NSObjectC", "FlutterMethodNotImplemented"]
+- ["So8NSObjectC", "FlutterResult"]
+- !private ["So8NSObjectC", "FlutterViewController"]
+- !private ["So8NSObjectC", "GeneratedPluginRegistrant"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- !private ["So8NSObjectC", "UIDevice"]
+- !private ["So8NSObjectC", "UIDeviceBatteryState"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "application"]
+- !private ["So8NSObjectC", "batteryLevel"]
+- !private ["So8NSObjectC", "batteryState"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "eventSink"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isBatteryMonitoringEnabled"]
+- !private ["So8NSObjectC", "method"]
+- ["So8NSObjectC", "onBatteryLevelDidChange"]
+- ["So8NSObjectC", "onBatteryStateDidChange"]
+- ["So8NSObjectC", "onCancel"]
+- ["So8NSObjectC", "onCancelWithArguments"]
+- ["So8NSObjectC", "onListen"]
+- ["So8NSObjectC", "onListenWithArguments"]
+- ["So8NSObjectC", "receiveBatteryLevel"]
+- !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectC", "removeObserver"]
+- !private ["So8NSObjectC", "rootViewController"]
+- ["So8NSObjectC", "sendBatteryLevelEvent"]
+- ["So8NSObjectC", "sendBatteryStateEvent"]
+- !private ["So8NSObjectC", "setMethodCallHandler"]
+- !private ["So8NSObjectC", "setStreamHandler"]
+- !private ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "FlutterError"]
+- !private ["So16NSObjectProtocolP", "FlutterEventChannel"]
+- !private ["So16NSObjectProtocolP", "FlutterMethodChannel"]
+- !private ["So16NSObjectProtocolP", "FlutterMethodNotImplemented"]
+- !private ["So16NSObjectProtocolP", "GeneratedPluginRegistrant"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "NSNotification"]
+- !private ["So16NSObjectProtocolP", "Name"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- !private ["So16NSObjectProtocolP", "UIDevice"]
+- !private ["So16NSObjectProtocolP", "UIDeviceBatteryState"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "application"]
+- !private ["So16NSObjectProtocolP", "batteryLevel"]
+- !private ["So16NSObjectProtocolP", "batteryState"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "eventSink"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isBatteryMonitoringEnabled"]
+- !private ["So16NSObjectProtocolP", "method"]
+- !private ["So16NSObjectProtocolP", "onBatteryLevelDidChange"]
+- !private ["So16NSObjectProtocolP", "onBatteryStateDidChange"]
+- ["So16NSObjectProtocolP", "onCancel"]
+- ["So16NSObjectProtocolP", "onCancelWithArguments"]
+- ["So16NSObjectProtocolP", "onListen"]
+- ["So16NSObjectProtocolP", "onListenWithArguments"]
+- !private ["So16NSObjectProtocolP", "receiveBatteryLevel"]
+- !private ["So16NSObjectProtocolP", "register"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "sendBatteryStateEvent"]
+- !private ["So16NSObjectProtocolP", "setMethodCallHandler"]
+- !private ["So16NSObjectProtocolP", "setStreamHandler"]
+- !private ["So16NSObjectProtocolP", "window"]
+- !private ["So14NSNotificationC4NameV", "UIDeviceBatteryLevelDidChange"]
+- !private ["So14NSNotificationC4NameV", "UIDeviceBatteryStateDidChange"]
+- !private ["So18NotificationCenterC", "addObserver"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "removeObserver"]
+- !private ["s7NumericP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "UIDeviceBatteryLevelDidChange"]
+- !private ["s16RawRepresentableP", "UIDeviceBatteryStateDidChange"]
+- ["s16RawRepresentableP", "charging"]
+- ["s16RawRepresentableP", "full"]
+- !private ["s16RawRepresentableP", "unknown"]
+- ["s16RawRepresentableP", "unplugged"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIApplicationDelegateP", "FlutterError"]
+- !private ["So21UIApplicationDelegateP", "FlutterEventChannel"]
+- !private ["So21UIApplicationDelegateP", "FlutterMethodChannel"]
+- !private ["So21UIApplicationDelegateP", "FlutterMethodNotImplemented"]
+- !private ["So21UIApplicationDelegateP", "GeneratedPluginRegistrant"]
+- !private ["So21UIApplicationDelegateP", "Int"]
+- !private ["So21UIApplicationDelegateP", "NSNotification"]
+- !private ["So21UIApplicationDelegateP", "NotificationCenter"]
+- !private ["So21UIApplicationDelegateP", "UIDevice"]
+- !private ["So21UIApplicationDelegateP", "UIDeviceBatteryState"]
+- ["So21UIApplicationDelegateP", ""]
+- !private ["So21UIApplicationDelegateP", "application"]
+- !private ["So21UIApplicationDelegateP", "eventSink"]
+- !private ["So21UIApplicationDelegateP", "init"]
+- !private ["So21UIApplicationDelegateP", "onBatteryLevelDidChange"]
+- !private ["So21UIApplicationDelegateP", "onBatteryStateDidChange"]
+- ["So21UIApplicationDelegateP", "onCancel"]
+- ["So21UIApplicationDelegateP", "onCancelWithArguments"]
+- ["So21UIApplicationDelegateP", "onListen"]
+- ["So21UIApplicationDelegateP", "onListenWithArguments"]
+- !private ["So21UIApplicationDelegateP", "receiveBatteryLevel"]
+- !private ["So21UIApplicationDelegateP", "sendBatteryStateEvent"]
+- !private ["So21UIApplicationDelegateP", "window"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So8UIDeviceC", "batteryLevel"]
+- !private ["So8UIDeviceC", "batteryState"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "isBatteryMonitoringEnabled"]
+- ["SC20UIDeviceBatteryStateO", "charging"]
+- ["SC20UIDeviceBatteryStateO", "full"]
+- !private ["SC20UIDeviceBatteryStateO", "unknown"]
+- ["SC20UIDeviceBatteryStateO", "unplugged"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "FlutterError"]
+- !private ["So30UIPasteConfigurationSupportingP", "FlutterEventChannel"]
+- !private ["So30UIPasteConfigurationSupportingP", "FlutterMethodChannel"]
+- !private ["So30UIPasteConfigurationSupportingP", "FlutterMethodNotImplemented"]
+- !private ["So30UIPasteConfigurationSupportingP", "GeneratedPluginRegistrant"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIDeviceBatteryState"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "application"]
+- !private ["So30UIPasteConfigurationSupportingP", "eventSink"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "onBatteryLevelDidChange"]
+- !private ["So30UIPasteConfigurationSupportingP", "onBatteryStateDidChange"]
+- ["So30UIPasteConfigurationSupportingP", "onCancel"]
+- ["So30UIPasteConfigurationSupportingP", "onCancelWithArguments"]
+- ["So30UIPasteConfigurationSupportingP", "onListen"]
+- ["So30UIPasteConfigurationSupportingP", "onListenWithArguments"]
+- !private ["So30UIPasteConfigurationSupportingP", "receiveBatteryLevel"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "sendBatteryStateEvent"]
+- !private ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "FlutterError"]
+- !private ["So11UIResponderC", "FlutterEventChannel"]
+- ["So11UIResponderC", "FlutterEventSink"]
+- !private ["So11UIResponderC", "FlutterMethodCall"]
+- !private ["So11UIResponderC", "FlutterMethodChannel"]
+- !private ["So11UIResponderC", "FlutterMethodNotImplemented"]
+- ["So11UIResponderC", "FlutterResult"]
+- !private ["So11UIResponderC", "FlutterViewController"]
+- !private ["So11UIResponderC", "GeneratedPluginRegistrant"]
+- !private ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "NSNotification"]
+- !private ["So11UIResponderC", "NotificationCenter"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- !private ["So11UIResponderC", "UIDevice"]
+- !private ["So11UIResponderC", "UIDeviceBatteryState"]
+- !private ["So11UIResponderC", "Void"]
+- ["So11UIResponderC", "application"]
+- ["So11UIResponderC", "eventSink"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "onBatteryLevelDidChange"]
+- ["So11UIResponderC", "onBatteryStateDidChange"]
+- ["So11UIResponderC", "onCancel"]
+- ["So11UIResponderC", "onCancelWithArguments"]
+- ["So11UIResponderC", "onListen"]
+- ["So11UIResponderC", "onListenWithArguments"]
+- ["So11UIResponderC", "receiveBatteryLevel"]
+- !private ["So11UIResponderC", "rootViewController"]
+- ["So11UIResponderC", "sendBatteryLevelEvent"]
+- ["So11UIResponderC", "sendBatteryStateEvent"]
+- !private ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "FlutterError"]
+- !private ["So30UIResponderStandardEditActionsP", "FlutterEventChannel"]
+- !private ["So30UIResponderStandardEditActionsP", "FlutterMethodChannel"]
+- !private ["So30UIResponderStandardEditActionsP", "FlutterMethodNotImplemented"]
+- !private ["So30UIResponderStandardEditActionsP", "GeneratedPluginRegistrant"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "NSNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "UIDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "UIDeviceBatteryState"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "application"]
+- !private ["So30UIResponderStandardEditActionsP", "eventSink"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "onBatteryLevelDidChange"]
+- !private ["So30UIResponderStandardEditActionsP", "onBatteryStateDidChange"]
+- ["So30UIResponderStandardEditActionsP", "onCancel"]
+- ["So30UIResponderStandardEditActionsP", "onCancelWithArguments"]
+- ["So30UIResponderStandardEditActionsP", "onListen"]
+- ["So30UIResponderStandardEditActionsP", "onListenWithArguments"]
+- !private ["So30UIResponderStandardEditActionsP", "receiveBatteryLevel"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "sendBatteryStateEvent"]
+- !private ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterEventChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodNotImplemented"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GeneratedPluginRegistrant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDeviceBatteryState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "batteryLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "batteryState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "eventSink"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isBatteryMonitoringEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "method"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onBatteryLevelDidChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onBatteryStateDidChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onCancel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onCancelWithArguments"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onListen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "onListenWithArguments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "receiveBatteryLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendBatteryStateEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setMethodCallHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setStreamHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "UIDeviceBatteryLevelDidChange"]
+- !private ["s21_ObjectiveCBridgeableP", "UIDeviceBatteryStateDidChange"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIDeviceBatteryLevelDidChange"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIDeviceBatteryStateDidChange"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "6Runner11AppDelegateC"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "So18FlutterAppDelegateC"
+- !private "So12FlutterErrorC"
+- !private "So19FlutterEventChannelC"
+- !private "So17FlutterMethodCallC"
+- !private "So20FlutterMethodChannelC"
+- "So21FlutterPluginRegistryP"
+- "So20FlutterStreamHandlerP"
+- !private "So25GeneratedPluginRegistrantC"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSNotificationC4NameV"
+- !private "So18NotificationCenterC"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So21UIApplicationDelegateP"
+- !private "So17UICoordinateSpaceP"
+- !private "So8UIDeviceC"
+- "SC20UIDeviceBatteryStateO"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So8UIWindowC"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterTexture.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterPlugin.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Runner/Runner-Bridging-Header.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterNavigationController.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterViewController.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterHeadlessDartRunner.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/Flutter.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterChannels.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Headers/FlutterDartProject.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Runner/GeneratedPluginRegistrant.h"
+- "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Flutter/Flutter.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "f26e2e67f42ce6f1607420b274d7f32c"

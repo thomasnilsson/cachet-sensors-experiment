@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "fea8ea2e68b5100874f8902c879bafa2"
+build_time: [1532725676, 796160000]
+inputs:
+  "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/AndroidSwift/ios/Runner/AppDelegate.swift": [1528733173, 0]

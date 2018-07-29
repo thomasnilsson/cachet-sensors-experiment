@@ -1,5 +1,5 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "6e8df9034bf56c950ac1a7041c6b34b6"
-build_time: [1528832000, 59211000]
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "1bc37c21d80ff00e5a1d50172231be97"
+build_time: [1532897655, 582403000]
 inputs:
-  "/Users/thomasnilsson/Desktop/FlutterPedometer/ios/Runner/AppDelegate.swift": [1528831949, 0]
+  "/Users/thomasnilsson/GitHub/cachet-sensors-experiment/Pedometer/CarpPedometerFlutter/ios/Runner/AppDelegate.swift": [1532897652, 0]
